@@ -41,13 +41,6 @@ async function handler(req, res) {
       "logoURI": "https://ardcoin.com/wp-content/themes/ardcoin/images/logo/logo3.png"
     },
     {
-      "address": "0x356058b999d315Ef9F6d13f1C478591E9C667831",
-      "name": "Diverse ARDX",
-      "symbol": "dARDX",
-      "decimals": 18,
-      "logoURI": "https://ardcoin.com/wp-content/themes/ardcoin/images/logo/logo3.png"
-    },
-    {
       "address": "0xaB57fAf3b573B8ac1ad90255f6cF4E92DbbcCE91",
       "name": "Diverse DAI",
       "symbol": "dDAI",

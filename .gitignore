@@ -32,4 +32,4 @@ yarn-error.log*
 .vercel
 
 .mnkhodVimWorkspace.vim
-.undordir
+.undodir
