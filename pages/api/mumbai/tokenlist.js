@@ -17,7 +17,7 @@ function runMiddleware(req, res, fn) {
 }
 
 
-function handler(req, res) {
+async function handler(req, res) {
   await runMiddleware(req, res, cors)
 
   const tokenlist = {
