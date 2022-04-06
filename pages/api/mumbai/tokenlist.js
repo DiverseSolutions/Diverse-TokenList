@@ -1,4 +1,25 @@
-export default function handler(req, res) {
+import Cors from 'cors'
+
+const cors = Cors({
+  methods: ['GET', 'HEAD'],
+})
+
+function runMiddleware(req, res, fn) {
+  return new Promise((resolve, reject) => {
+    fn(req, res, (result) => {
+      if (result instanceof Error) {
+        return reject(result)
+      }
+
+      return resolve(result)
+    })
+  })
+}
+
+
+function handler(req, res) {
+  await runMiddleware(req, res, cors)
+
   const tokenlist = {
   "networkName": [ 'Mumbai' , 'Matic TestNet' , 'Polygon PoS Chain Testnet' ],
   "chainId": 80001,
@@ -73,3 +94,5 @@ export default function handler(req, res) {
 
   res.status(200).json(tokenlist)
 }
+
+export default handler;
