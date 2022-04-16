@@ -20,9 +20,17 @@ export default function Home() {
           <div className="max-w-lg">
             <h1 className="text-5xl font-bold"><span className="text-blue-600">Diverse</span> Token List 🎁</h1>
             <p className="py-6 text-xl">Easy API endpoints to retrieve json formatted token lists of every tokens we know 🎉 🥳</p>
-            <Link href="/api/mumbai/tokenlist">
-              <button className="btn btn-primary">Get Mumbai Token List</button>
-            </Link>
+            <div className="flex flex-col">
+              <Link href="/api/mumbai/tokenlist">
+                <button className="self-start w-6/12 btn btn-primary">Example Mumbai TokenList Endpoint</button>
+              </Link>
+              <Link href="/api/mumbai/tokenName?name=dTether%20USD">
+                <button className="self-end w-6/12 my-4 text-white btn btn-warning">Example Mumbai TokenName Endpoint</button>
+              </Link>
+              <Link href="/api/mumbai/tokenSymbol?symbol=dUSDT">
+                <button className="self-end w-6/12 text-white btn btn-success">Example Mumbai TokenSymbol Endpoint</button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

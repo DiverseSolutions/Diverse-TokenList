@@ -17,11 +17,22 @@ function runMiddleware(req, res, fn) {
   })
 }
 
-
 async function handler(req, res) {
   await runMiddleware(req, res, cors)
+  const { name } = req.query
 
-  res.status(200).json(mumbaiTokenList)
+  let foundToken = mumbaiTokenList.tokens.find((i) => i.name === name.toString())
+
+  if(name == undefined){
+    res.status(400).json({ error: 'name query parameter not found' })
+  }
+
+  if(foundToken == undefined){
+    res.status(400).json({ error: 'token not found' })
+  }
+
+  res.status(200).json(foundToken)
 }
 
 export default handler;
+
