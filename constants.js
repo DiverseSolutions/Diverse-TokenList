@@ -417,7 +417,7 @@ const mumbaiTokenList = {
     },
     {
       "address": "0xb6F12781608772f20055D0eD8414623d7be82853",
-      "name": "Shiba%20Inu",
+      "name": "Shiba Inu",
       "symbol": "SHIB",
       "decimals": 18,
       "logoURI": "https://cryptologos.cc/logos/shiba-inu-shib-logo.png?v=022",
