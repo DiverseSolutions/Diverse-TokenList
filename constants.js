@@ -4,97 +4,46 @@ const mumbaiTokenList = {
   "explorers": ['https://mumbai.polygonscan.com/'],
   'currency' : 'MATIC',
   "tokens": [
-    {
-      "address": "0xECd313e29b85cAf347fb832F80427602030cD3Fc",
-      "name": "dTether USD",
-      "symbol": "dUSDT",
-      "decimals": 6,
-      "logoURI": "https://cryptologos.cc/logos/tether-usdt-logo.png?v=022",
-      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
-        `name=dTether%20USD` +
-        `&symbol=dUSDT` +
-        `&decimals=6` +
-        `&address=0xECd313e29b85cAf347fb832F80427602030cD3Fc` +
-        `&imgUrl=${"https://cryptologos.cc/logos/tether-usdt-logo.png?v=022"}`,
-    },
-    {
-      "address": "0x356058b999d315Ef9F6d13f1C478591E9C667831",
-      "name": "Diverse ARDX",
-      "symbol": "dARDX",
-      "decimals": 18,
-      "logoURI": "https://tokenimg.dsolutions.mn/tokens/ardx.png",
-      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
-        `name=Diverse%20ARDX` +
-        `&symbol=dARDX` +
-        `&decimals=18` +
-        `&address=0x356058b999d315Ef9F6d13f1C478591E9C667831` +
-        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
-    },
-    {
-      "address": "0xaB57fAf3b573B8ac1ad90255f6cF4E92DbbcCE91",
-      "name": "Diverse DAI",
-      "symbol": "dDAI",
-      "decimals": 18,
-      "logoURI": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png?v=022",
-      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
-        `name=Diverse%20DAI` +
-        `&symbol=dDAI` +
-        `&decimals=18` +
-        `&address=0xaB57fAf3b573B8ac1ad90255f6cF4E92DbbcCE91` +
-        `&imgUrl=${"https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png?v=022"}`,
-    },
-    {
-      "address": "0x2b8920cBdDCc3e85753423eEceCd179cb9232554",
-      "name": "Diverse USDC",
-      "symbol": "dUSDC",
-      "decimals": 6,
-      "logoURI": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=022",
-      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
-        `name=Diverse%20USDC` +
-        `&symbol=dUSDC` +
-        `&decimals=6` +
-        `&address=0x2b8920cBdDCc3e85753423eEceCd179cb9232554` +
-        `&imgUrl=${"https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=022"}`,
-    },
-    {
-      "address": "0x8A250B3517AD8d59354D50af0D9be5c4Cd90F070",
-      "name": "DummyToken-A",
-      "symbol": "TKN-A",
-      "decimals": 18,
-      "logoURI": "https://faucet.dsolutions.mn/diversetoken.png",
-      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
-        `name=DummyToken-A` +
-        `&symbol=TKN-A` +
-        `&decimals=18` +
-        `&address=0x8A250B3517AD8d59354D50af0D9be5c4Cd90F070` +
-        `&imgUrl=${"https://faucet.dsolutions.mn/diversetoken.png"}`,
-    },
-    {
-      "address": "0x551181Be541f56ce6C6c13448F54Adb8eA2AB531",
-      "name": "DummyToken-B",
-      "symbol": "TKN-B",
-      "decimals": 18,
-      "logoURI": "https://faucet.dsolutions.mn/diversetoken.png",
-      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
-        `name=DummyToken-B` +
-        `&symbol=TKN-B` +
-        `&decimals=18` +
-        `&address=0x551181Be541f56ce6C6c13448F54Adb8eA2AB531` +
-        `&imgUrl=${"https://faucet.dsolutions.mn/diversetoken.png"}`,
-    },
-    {
-      "address": "0x14cD48F91D3ca4FE9C7e2e888d68667879942A9D",
-      "name": "DummyToken-C",
-      "symbol": "TKN-C",
-      "decimals": 18,
-      "logoURI": "https://faucet.dsolutions.mn/diversetoken.png",
-      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
-        `name=DummyToken-C` +
-        `&symbol=TKN-C` +
-        `&decimals=18` +
-        `&address=0x14cD48F91D3ca4FE9C7e2e888d68667879942A9D` +
-        `&imgUrl=${"https://faucet.dsolutions.mn/diversetoken.png"}`,
-    },
+
+    // {
+    //   "address": "0x8A250B3517AD8d59354D50af0D9be5c4Cd90F070",
+    //   "name": "DummyToken-A",
+    //   "symbol": "TKN-A",
+    //   "decimals": 18,
+    //   "logoURI": "https://faucet.dsolutions.mn/diversetoken.png",
+    //   addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+    //     `name=DummyToken-A` +
+    //     `&symbol=TKN-A` +
+    //     `&decimals=18` +
+    //     `&address=0x8A250B3517AD8d59354D50af0D9be5c4Cd90F070` +
+    //     `&imgUrl=${"https://faucet.dsolutions.mn/diversetoken.png"}`,
+    // },
+    // {
+    //   "address": "0x551181Be541f56ce6C6c13448F54Adb8eA2AB531",
+    //   "name": "DummyToken-B",
+    //   "symbol": "TKN-B",
+    //   "decimals": 18,
+    //   "logoURI": "https://faucet.dsolutions.mn/diversetoken.png",
+    //   addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+    //     `name=DummyToken-B` +
+    //     `&symbol=TKN-B` +
+    //     `&decimals=18` +
+    //     `&address=0x551181Be541f56ce6C6c13448F54Adb8eA2AB531` +
+    //     `&imgUrl=${"https://faucet.dsolutions.mn/diversetoken.png"}`,
+    // },
+    // {
+    //   "address": "0x14cD48F91D3ca4FE9C7e2e888d68667879942A9D",
+    //   "name": "DummyToken-C",
+    //   "symbol": "TKN-C",
+    //   "decimals": 18,
+    //   "logoURI": "https://faucet.dsolutions.mn/diversetoken.png",
+    //   addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+    //     `name=DummyToken-C` +
+    //     `&symbol=TKN-C` +
+    //     `&decimals=18` +
+    //     `&address=0x14cD48F91D3ca4FE9C7e2e888d68667879942A9D` +
+    //     `&imgUrl=${"https://faucet.dsolutions.mn/diversetoken.png"}`,
+    // },
 
 
 
@@ -345,6 +294,272 @@ const mumbaiTokenList = {
         `&decimals=18` +
         `&address=0x0fFb0CAb4AEcfa116A9CF6cE0086455Dc13B95e6` +
         `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/zesc.png"}`,
+    },
+
+    // Foreign Tokens
+
+    {
+      "address": "0x0db6b9676eF175895a5d212fe326EB939F55B3b6",
+      "name": "Cardano",
+      "symbol": "ADA",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/cardano-ada-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Cardano` +
+        `&symbol=ADA` +
+        `&decimals=18` +
+        `&address=0x0db6b9676eF175895a5d212fe326EB939F55B3b6` +
+        `&imgUrl=${"https://cryptologos.cc/logos/cardano-ada-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x2624866F531f7dD2D397aE43a21990f184A83278",
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/avalanche-avax-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Avalanche` +
+        `&symbol=AVAX` +
+        `&decimals=18` +
+        `&address=0x2624866F531f7dD2D397aE43a21990f184A83278` +
+        `&imgUrl=${"https://cryptologos.cc/logos/avalanche-avax-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x2a1b04b8CB7e7a369742f699C25Bb9032e4B5499",
+      "name": "Binance",
+      "symbol": "BNB",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/bnb-bnb-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Binance` +
+        `&symbol=BNB` +
+        `&decimals=18` +
+        `&address=0x2a1b04b8CB7e7a369742f699C25Bb9032e4B5499` +
+        `&imgUrl=${"https://cryptologos.cc/logos/bnb-bnb-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x2144c91380b39aaAA0480dC306170F268a525D61",
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Bitcoin` +
+        `&symbol=BTC` +
+        `&decimals=18` +
+        `&address=0x2144c91380b39aaAA0480dC306170F268a525D61` +
+        `&imgUrl=${"https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x8FF61D7466752700dA43184Aa0c06F6e558B543b",
+      "name": "BinanceUSD",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/binance-usd-busd-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=BinanceUSD` +
+        `&symbol=BUSD` +
+        `&decimals=18` +
+        `&address=0x8FF61D7466752700dA43184Aa0c06F6e558B543b` +
+        `&imgUrl=${"https://cryptologos.cc/logos/binance-usd-busd-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x0B6197d3562cF8E0C5a1aB7994ae87337586FA1E",
+      "name": "Doge Coin",
+      "symbol": "DOGE",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/dogecoin-doge-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Doge%20Coin` +
+        `&symbol=DOGE` +
+        `&decimals=18` +
+        `&address=0x0B6197d3562cF8E0C5a1aB7994ae87337586FA1E` +
+        `&imgUrl=${"https://cryptologos.cc/logos/dogecoin-doge-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x3e414AE043F6d4ee5e5EB9534F837352DD45E33E",
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Polkadot` +
+        `&symbol=DOT` +
+        `&decimals=18` +
+        `&address=0x3e414AE043F6d4ee5e5EB9534F837352DD45E33E` +
+        `&imgUrl=${"https://cryptologos.cc/logos/polkadot-new-dot-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x34b4d84b61384F73Fb13C105FeA534a1fa408b4A",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/ethereum-eth-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Ethereum` +
+        `&symbol=ETH` +
+        `&decimals=18` +
+        `&address=0x34b4d84b61384F73Fb13C105FeA534a1fa408b4A` +
+        `&imgUrl=${"https://cryptologos.cc/logos/ethereum-eth-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x372880087ef317213FA2A97C9D27DE085Fe1925E",
+      "name": "Terra",
+      "symbol": "LUNA",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/terra-luna-luna-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Terra` +
+        `&symbol=LUNA` +
+        `&decimals=18` +
+        `&address=0x372880087ef317213FA2A97C9D27DE085Fe1925E` +
+        `&imgUrl=${"https://cryptologos.cc/logos/terra-luna-luna-logo.png?v=022"}`,
+    },
+    {
+      "address": "0xb6F12781608772f20055D0eD8414623d7be82853",
+      "name": "Shiba%20Inu",
+      "symbol": "SHIB",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/shiba-inu-shib-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Shiba%20Inu` +
+        `&symbol=SHIB` +
+        `&decimals=18` +
+        `&address=0xb6F12781608772f20055D0eD8414623d7be82853` +
+        `&imgUrl=${"https://cryptologos.cc/logos/shiba-inu-shib-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x97b8B8E2435baeEE7e6b1e9B5c92f18b56a8B3aF",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/solana-sol-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Solana` +
+        `&symbol=SOL` +
+        `&decimals=18` +
+        `&address=0x97b8B8E2435baeEE7e6b1e9B5c92f18b56a8B3aF` +
+        `&imgUrl=${"https://cryptologos.cc/logos/solana-sol-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x4e3a4f8121dD9395dC77188174DA3f1D46ed70D4",
+      "name": "TerraUSD",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/tether-usdt-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=TerraUSD` +
+        `&symbol=USDT` +
+        `&decimals=18` +
+        `&address=0x4e3a4f8121dD9395dC77188174DA3f1D46ed70D4` +
+        `&imgUrl=${"https://cryptologos.cc/logos/tether-usdt-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x3240889178ad84D3D7C5b657bCc05e0341C9D914",
+      "name": "Ripple",
+      "symbol": "XRP",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/xrp-xrp-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Ripple` +
+        `&symbol=XRP` +
+        `&decimals=18` +
+        `&address=0x3240889178ad84D3D7C5b657bCc05e0341C9D914` +
+        `&imgUrl=${"https://cryptologos.cc/logos/xrp-xrp-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x7FBCb9E1C4230431738fa80A41BE451116e55C48",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/uniswap-uni-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Uniswap` +
+        `&symbol=UNI` +
+        `&decimals=18` +
+        `&address=0x7FBCb9E1C4230431738fa80A41BE451116e55C48` +
+        `&imgUrl=${"https://cryptologos.cc/logos/uniswap-uni-logo.png?v=022"}`,
+    },
+    {
+      "address": "0xB0449BD5597a2F35bf0cFad84449b79Ba3385712",
+      "name": "SandBox",
+      "symbol": "SAND",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/the-sandbox-sand-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=SandBox` +
+        `&symbol=SAND` +
+        `&decimals=18` +
+        `&address=0xB0449BD5597a2F35bf0cFad84449b79Ba3385712` +
+        `&imgUrl=${"https://cryptologos.cc/logos/the-sandbox-sand-logo.png?v=022"}`,
+    },
+    {
+      "address": "0xf412A34A5c7b6f242fE705EE2f28DF5b3aF8A378",
+      "name": "Decentraland",
+      "symbol": "MANA",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/decentraland-mana-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Decentraland` +
+        `&symbol=MANA` +
+        `&decimals=18` +
+        `&address=0xf412A34A5c7b6f242fE705EE2f28DF5b3aF8A378` +
+        `&imgUrl=${"https://cryptologos.cc/logos/decentraland-mana-logo.png?v=022"}`,
+    },
+
+
+    // Forked Tokens
+    {
+      "address": "0xECd313e29b85cAf347fb832F80427602030cD3Fc",
+      "name": "dTether USD",
+      "symbol": "dUSDT",
+      "decimals": 6,
+      "logoURI": "https://cryptologos.cc/logos/tether-usdt-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=dTether%20USD` +
+        `&symbol=dUSDT` +
+        `&decimals=6` +
+        `&address=0xECd313e29b85cAf347fb832F80427602030cD3Fc` +
+        `&imgUrl=${"https://cryptologos.cc/logos/tether-usdt-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x356058b999d315Ef9F6d13f1C478591E9C667831",
+      "name": "Diverse ARDX",
+      "symbol": "dARDX",
+      "decimals": 18,
+      "logoURI": "https://tokenimg.dsolutions.mn/tokens/ardx.png",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Diverse%20ARDX` +
+        `&symbol=dARDX` +
+        `&decimals=18` +
+        `&address=0x356058b999d315Ef9F6d13f1C478591E9C667831` +
+        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
+    },
+    {
+      "address": "0xaB57fAf3b573B8ac1ad90255f6cF4E92DbbcCE91",
+      "name": "Diverse DAI",
+      "symbol": "dDAI",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Diverse%20DAI` +
+        `&symbol=dDAI` +
+        `&decimals=18` +
+        `&address=0xaB57fAf3b573B8ac1ad90255f6cF4E92DbbcCE91` +
+        `&imgUrl=${"https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x2b8920cBdDCc3e85753423eEceCd179cb9232554",
+      "name": "Diverse USDC",
+      "symbol": "dUSDC",
+      "decimals": 6,
+      "logoURI": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Diverse%20USDC` +
+        `&symbol=dUSDC` +
+        `&decimals=6` +
+        `&address=0x2b8920cBdDCc3e85753423eEceCd179cb9232554` +
+        `&imgUrl=${"https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=022"}`,
     },
   ]
 }
