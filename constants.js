@@ -49,6 +49,19 @@ const mumbaiTokenList = {
 
 
     {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "name": "Ard Coin",
+      "symbol": "ARDX",
+      "decimals": 18,
+      "logoURI": "https://tokenimg.dsolutions.mn/tokens/ardx.png",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Ard%20Coin` +
+        `&symbol=ARDX` +
+        `&decimals=18` +
+        `&address=0x5FbDB2315678afecb367f032d93F642f64180aa3` +
+        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
+    },
+    {
       "address": "0xFC509bDc93c99BA9006115394E24f90dA54CD83b",
       "name": "ArdMoney",
       "symbol": "ARDM",
@@ -61,19 +74,19 @@ const mumbaiTokenList = {
         `&address=0xFC509bDc93c99BA9006115394E24f90dA54CD83b` +
         `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardm.png"}`,
     },
-    {
-      "address": "0x391326ad093d03679e70CD0F0C03425207a62A13",
-      "name": "BariCoin",
-      "symbol": "BARI",
-      "decimals": 18,
-      "logoURI": "https://tokenimg.dsolutions.mn/tokens/bari.png",
-      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
-        `name=BariCoin` +
-        `&symbol=BARI` +
-        `&decimals=18` +
-        `&address=0x391326ad093d03679e70CD0F0C03425207a62A13` +
-        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/bari.png"}`,
-    },
+    // {
+    //   "address": "0x391326ad093d03679e70CD0F0C03425207a62A13",
+    //   "name": "BariCoin",
+    //   "symbol": "BARI",
+    //   "decimals": 18,
+    //   "logoURI": "https://tokenimg.dsolutions.mn/tokens/bari.png",
+    //   addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+    //     `name=BariCoin` +
+    //     `&symbol=BARI` +
+    //     `&decimals=18` +
+    //     `&address=0x391326ad093d03679e70CD0F0C03425207a62A13` +
+    //     `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/bari.png"}`,
+    // },
     {
       "address": "0xE78a5EB1A3C2Ff447Ee3AD30F8d6669DA6655557",
       "name": "MGLcalceum",
@@ -522,19 +535,19 @@ const mumbaiTokenList = {
         `&address=0xECd313e29b85cAf347fb832F80427602030cD3Fc` +
         `&imgUrl=${"https://cryptologos.cc/logos/tether-usdt-logo.png?v=022"}`,
     },
-    {
-      "address": "0x356058b999d315Ef9F6d13f1C478591E9C667831",
-      "name": "Diverse ARDX",
-      "symbol": "dARDX",
-      "decimals": 18,
-      "logoURI": "https://tokenimg.dsolutions.mn/tokens/ardx.png",
-      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
-        `name=Diverse%20ARDX` +
-        `&symbol=dARDX` +
-        `&decimals=18` +
-        `&address=0x356058b999d315Ef9F6d13f1C478591E9C667831` +
-        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
-    },
+    // {
+    //   "address": "0x356058b999d315Ef9F6d13f1C478591E9C667831",
+    //   "name": "Diverse ARDX",
+    //   "symbol": "dARDX",
+    //   "decimals": 18,
+    //   "logoURI": "https://tokenimg.dsolutions.mn/tokens/ardx.png",
+    //   addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+    //     `name=Diverse%20ARDX` +
+    //     `&symbol=dARDX` +
+    //     `&decimals=18` +
+    //     `&address=0x356058b999d315Ef9F6d13f1C478591E9C667831` +
+    //     `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
+    // },
     {
       "address": "0xaB57fAf3b573B8ac1ad90255f6cF4E92DbbcCE91",
       "name": "Diverse DAI",
