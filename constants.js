@@ -49,7 +49,7 @@ const mumbaiTokenList = {
 
 
     {
-      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "address": "0xD26ADF1fb375a08760Aed4a5bCdd8527C7e191B1",
       "name": "Ard Coin",
       "symbol": "ARDX",
       "decimals": 18,
@@ -58,7 +58,7 @@ const mumbaiTokenList = {
         `name=Ard%20Coin` +
         `&symbol=ARDX` +
         `&decimals=18` +
-        `&address=0x5FbDB2315678afecb367f032d93F642f64180aa3` +
+        `&address=0xD26ADF1fb375a08760Aed4a5bCdd8527C7e191B1` +
         `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
     },
     {
