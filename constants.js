@@ -62,6 +62,19 @@ const mumbaiTokenList = {
         `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
     },
     {
+      "address": "0x86652c1301843B4E06fBfbBDaA6849266fb2b5e7",
+      "name": "Wrapped Matic",
+      "symbol": "WMATIC",
+      "decimals": 18,
+      "logoURI": "https://tokenimg.dsolutions.mn/tokens/matic.png",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Wrapped%20Matic` +
+        `&symbol=WMATIC` +
+        `&decimals=18` +
+        `&address=0x86652c1301843B4E06fBfbBDaA6849266fb2b5e7` +
+        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/matic.png"}`,
+    },
+    {
       "address": "0xFC509bDc93c99BA9006115394E24f90dA54CD83b",
       "name": "ArdMoney",
       "symbol": "ARDM",
