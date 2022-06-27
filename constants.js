@@ -592,7 +592,7 @@ const mumbaiTokenList = {
 
 const bscTestNetTokenList = {
   "networkName": [ 'BNB TestNet' , 'BNB Test Net'],
-  "chainId": 80001,
+  "chainId": 97,
   "explorers": ['https://testnet.bscscan.com/'],
   'currency' : 'BNB',
   "tokens": [
