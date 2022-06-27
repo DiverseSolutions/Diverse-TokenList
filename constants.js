@@ -589,7 +589,96 @@ const mumbaiTokenList = {
     },
   ]
 }
+
+const bscTestNetTokenList = {
+  "networkName": [ 'BNB TestNet' , 'BNB Test Net'],
+  "chainId": 80001,
+  "explorers": ['https://testnet.bscscan.com/'],
+  'currency' : 'BNB',
+  "tokens": [
+    {
+      "address": "0x42E66bA8D80B098F75554b061288a41d083C6348",
+      "name": "BinanceUSD",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/binance-usd-busd-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=BinanceUSD` +
+        `&symbol=BUSD` +
+        `&decimals=18` +
+        `&address=0x42E66bA8D80B098F75554b061288a41d083C6348` +
+        `&imgUrl=${"https://cryptologos.cc/logos/binance-usd-busd-logo.png?v=022"}`,
+    },
+    {
+      "address": "0xc50c6773761090742bb321112A38dEe684e41118",
+      "name": "TerraUSD",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/tether-usdt-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=TerraUSD` +
+        `&symbol=USDT` +
+        `&decimals=18` +
+        `&address=0xc50c6773761090742bb321112A38dEe684e41118` +
+        `&imgUrl=${"https://cryptologos.cc/logos/tether-usdt-logo.png?v=022"}`,
+    },
+    {
+      "address": "0x582f598539dB91e3349b14f3B2459AA84deAb480",
+      "name": "Ard Coin",
+      "symbol": "ARDX",
+      "decimals": 18,
+      "logoURI": "https://tokenimg.dsolutions.mn/tokens/ardx.png",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Ard%20Coin` +
+        `&symbol=ARDX` +
+        `&decimals=18` +
+        `&address=0x582f598539dB91e3349b14f3B2459AA84deAb480` +
+        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
+    },
+    {
+      "address": "0x9087f345F063b88a78b80D90Eeb1DA35288D183A",
+      "name": "Mongol Tether",
+      "symbol": "MONT",
+      "decimals": 18,
+      "logoURI": "https://tokenimg.dsolutions.mn/tokens/mont.png",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Mongol%20Tether` +
+        `&symbol=MONT` +
+        `&decimals=18` +
+        `&address=0x9087f345F063b88a78b80D90Eeb1DA35288D183A` +
+        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/mont.png"}`,
+    },
+    {
+      "address": "0x2D9ee688D46FD1D39Eb3507BB58dCE3A3cab64D0",
+      "name": "ArdMoney",
+      "symbol": "ARDM",
+      "decimals": 18,
+      "logoURI": "https://tokenimg.dsolutions.mn/tokens/ardm.png",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=ArdMoney` +
+        `&symbol=ARDM` +
+        `&decimals=18` +
+        `&address=0x2D9ee688D46FD1D39Eb3507BB58dCE3A3cab64D0` +
+        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardm.png"}`,
+    },
+    {
+      "address": "0x25A5C86b6CB03D2e5413810Ba5b62cC86473bE70",
+      "name": "Inflation Hedging Coin",
+      "symbol": "IHC",
+      "decimals": 18,
+      "logoURI": "https://tokenimg.dsolutions.mn/tokens/ihc.png",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Inflation%20Hedging%20Coin` +
+        `&symbol=IHC` +
+        `&decimals=18` +
+        `&address=0x25A5C86b6CB03D2e5413810Ba5b62cC86473bE70` +
+        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ihc.png"}`,
+    },
+  ]
+}
+
 export {
-  mumbaiTokenList
+  mumbaiTokenList,
+  bscTestNetTokenList
 };
 
