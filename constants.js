@@ -677,8 +677,44 @@ const bscTestNetTokenList = {
   ]
 }
 
+const bscMainNetTokenList = {
+  "networkName": [ 'BNB Chain' , 'BSC'],
+  "chainId": 56,
+  "explorers": ['https://bscscan.com'],
+  'currency' : 'BNB',
+  "tokens": [
+    {
+      "address": "0xfef4AA08D31Db811CD42997aAcB9f82e708e123F",
+      "name": "Diverse Mont",
+      "symbol": "DMONT",
+      "decimals": 18,
+      "logoURI": "https://tokenimg.dsolutions.mn/tokens/mont.png",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Diverse%20Mont` +
+        `&symbol=DMONT` +
+        `&decimals=18` +
+        `&address=0xfef4AA08D31Db811CD42997aAcB9f82e708e123F` +
+        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/mont.png"}`,
+    },
+    {
+      "address": "0x92D4d7062c1C69acaFaEa68e3f53002A6047C5D9",
+      "name": "Diverse ARDX",
+      "symbol": "DARDX",
+      "decimals": 18,
+      "logoURI": "https://tokenimg.dsolutions.mn/tokens/ardx.png",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Diverse%20ARDX` +
+        `&symbol=DARDX` +
+        `&decimals=18` +
+        `&address=0x92D4d7062c1C69acaFaEa68e3f53002A6047C5D9` +
+        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
+    },
+  ]
+}
+
 export {
   mumbaiTokenList,
-  bscTestNetTokenList
+  bscTestNetTokenList,
+  bscMainNetTokenList
 };
 

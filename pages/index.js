@@ -32,6 +32,9 @@ export default function Home() {
             <Link href="/api/bscTestNet/tokenlist">
               <button className="text-white btn btn-warning">BNB TestNet TokenList Endpoint</button>
             </Link>
+            <Link href="/api/bsc/tokenlist">
+              <button className="text-white btn btn-warning">BNB TokenList Endpoint</button>
+            </Link>
           </div>
         </div>
       </div>
