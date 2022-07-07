@@ -684,30 +684,30 @@ const bscMainNetTokenList = {
   'currency' : 'BNB',
   "tokens": [
     {
-      "address": "0xfef4AA08D31Db811CD42997aAcB9f82e708e123F",
-      "name": "Diverse Mont",
-      "symbol": "DMONT",
+      "address": "0x2D279FDECdf7f5705F5ff0bD80F8D9a305Ea87F4",
+      "name": "Mongol Tether",
+      "symbol": "MONT",
       "decimals": 18,
       "logoURI": "https://tokenimg.dsolutions.mn/tokens/mont.png",
       addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
-        `name=Diverse%20Mont` +
-        `&symbol=DMONT` +
+        `name=Mongol%20Tether` +
+        `&symbol=MONT` +
         `&decimals=18` +
-        `&address=0xfef4AA08D31Db811CD42997aAcB9f82e708e123F` +
+        `&address=0x2D279FDECdf7f5705F5ff0bD80F8D9a305Ea87F4` +
         `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/mont.png"}`,
     },
     {
-      "address": "0x92D4d7062c1C69acaFaEa68e3f53002A6047C5D9",
-      "name": "Diverse ARDX",
-      "symbol": "DARDX",
+      "address": "0xE849188F76c0dA93b5eD310a1F72127914b3A7b9",
+      "name": "ArdMoney",
+      "symbol": "ARDM",
       "decimals": 18,
-      "logoURI": "https://tokenimg.dsolutions.mn/tokens/ardx.png",
+      "logoURI": "https://tokenimg.dsolutions.mn/tokens/ardm.png",
       addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
-        `name=Diverse%20ARDX` +
-        `&symbol=DARDX` +
+        `name=ArdMoney` +
+        `&symbol=ARDM` +
         `&decimals=18` +
-        `&address=0x92D4d7062c1C69acaFaEa68e3f53002A6047C5D9` +
-        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
+        `&address=0xE849188F76c0dA93b5eD310a1F72127914b3A7b9` +
+        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardm.png"}`,
     },
   ]
 }
