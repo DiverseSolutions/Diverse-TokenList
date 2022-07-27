@@ -709,6 +709,19 @@ const bscMainNetTokenList = {
         `&address=0xE849188F76c0dA93b5eD310a1F72127914b3A7b9` +
         `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardm.png"}`,
     },
+    {
+      "address": "0x86a53fcd199212FEa44FA7e16EB1f28812be911D",
+      "name": "Inflation Hedging Coin",
+      "symbol": "IHC",
+      "decimals": 18,
+      "logoURI": "https://tokenimg.dsolutions.mn/tokens/ihc.png",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Inflation%20Hedging%20Coin` +
+        `&symbol=IHC` +
+        `&decimals=18` +
+        `&address=0x86a53fcd199212FEa44FA7e16EB1f28812be911D` +
+        `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ihc.png"}`,
+    },
   ]
 }
 
