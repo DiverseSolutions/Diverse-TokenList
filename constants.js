@@ -624,7 +624,7 @@ const bscTestNetTokenList = {
     },
 
     {
-      "address": "0xCA3FA15BeB488c902283883a464d156ee8c6f706",
+      "address": "0x51934B73D93A2C611b6F080674a15308d9E1dB7D",
       "name": "Ard Coin",
       "symbol": "ARDX",
       "decimals": 2,
@@ -633,7 +633,7 @@ const bscTestNetTokenList = {
         `name=Ard%20Coin` +
         `&symbol=ARDX` +
         `&decimals=2` +
-        `&address=0xCA3FA15BeB488c902283883a464d156ee8c6f706` +
+        `&address=0x51934B73D93A2C611b6F080674a15308d9E1dB7D` +
         `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
     },
 
