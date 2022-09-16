@@ -49,16 +49,16 @@ const mumbaiTokenList = {
 
 
     {
-      "address": "0xD26ADF1fb375a08760Aed4a5bCdd8527C7e191B1",
+      "address": "0xbb6B6b5A1e7829e90cb7F97067ca37080dF8BAB9",
       "name": "Ard Coin",
       "symbol": "ARDX",
-      "decimals": 18,
+      "decimals": 2,
       "logoURI": "https://tokenimg.dsolutions.mn/tokens/ardx.png",
       addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
         `name=Ard%20Coin` +
         `&symbol=ARDX` +
         `&decimals=18` +
-        `&address=0xD26ADF1fb375a08760Aed4a5bCdd8527C7e191B1` +
+        `&address=0xbb6B6b5A1e7829e90cb7F97067ca37080dF8BAB9` +
         `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
     },
     {
