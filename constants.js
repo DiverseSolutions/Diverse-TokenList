@@ -622,19 +622,21 @@ const bscTestNetTokenList = {
         `&address=0xc50c6773761090742bb321112A38dEe684e41118` +
         `&imgUrl=${"https://cryptologos.cc/logos/tether-usdt-logo.png?v=022"}`,
     },
+
     {
-      "address": "0x582f598539dB91e3349b14f3B2459AA84deAb480",
+      "address": "0xCA3FA15BeB488c902283883a464d156ee8c6f706",
       "name": "Ard Coin",
       "symbol": "ARDX",
-      "decimals": 18,
+      "decimals": 2,
       "logoURI": "https://tokenimg.dsolutions.mn/tokens/ardx.png",
       addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
         `name=Ard%20Coin` +
         `&symbol=ARDX` +
-        `&decimals=18` +
-        `&address=0x582f598539dB91e3349b14f3B2459AA84deAb480` +
+        `&decimals=2` +
+        `&address=0xCA3FA15BeB488c902283883a464d156ee8c6f706` +
         `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
     },
+
     {
       "address": "0x9087f345F063b88a78b80D90Eeb1DA35288D183A",
       "name": "Mongol Tether",
