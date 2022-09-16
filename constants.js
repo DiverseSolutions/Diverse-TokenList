@@ -57,7 +57,7 @@ const mumbaiTokenList = {
       addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
         `name=Ard%20Coin` +
         `&symbol=ARDX` +
-        `&decimals=18` +
+        `&decimals=2` +
         `&address=0xbb6B6b5A1e7829e90cb7F97067ca37080dF8BAB9` +
         `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardx.png"}`,
     },
