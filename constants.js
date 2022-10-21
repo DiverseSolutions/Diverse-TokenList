@@ -699,6 +699,19 @@ const bscMainNetTokenList = {
         `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/mont.png"}`,
     },
     {
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "name": "Tether(USD)",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/tether-usdt-logo.png?v=022",
+      addToMetamaskLink : `https://metamask.dsolutions.mn/add-token?` +
+        `name=Tether(USD)` +
+        `&symbol=USDT` +
+        `&decimals=18` +
+        `&address=0x55d398326f99059fF775485246999027B3197955` +
+        `&imgUrl=${"https://cryptologos.cc/logos/tether-usdt-logo.png?v=022"}`,
+    },
+    {
       "address": "0xE849188F76c0dA93b5eD310a1F72127914b3A7b9",
       "name": "ArdMoney",
       "symbol": "ARDM",
