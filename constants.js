@@ -738,7 +738,7 @@ const bscMainNetTokenList = {
         `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/ardm.png"}`,
     },
     {
-      "address": "0xE849188F76c0dA93b5eD310a1F72127914b3A7b9",
+      "address": "0x1b911938C3aD76De1DFaACcF508f9018b93FfB93",
       "name": "xArdMoney",
       "symbol": "xARDM",
       "decimals": 18,
@@ -747,7 +747,7 @@ const bscMainNetTokenList = {
         `name=xArdMoney` +
         `&symbol=xARDM` +
         `&decimals=18` +
-        `&address=0xE849188F76c0dA93b5eD310a1F72127914b3A7b9` +
+        `&address=0x1b911938C3aD76De1DFaACcF508f9018b93FfB93` +
         `&imgUrl=${"https://tokenimg.dsolutions.mn/tokens/xardm.png"}`,
     },
     {
